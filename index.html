@@ -1,0 +1,48 @@
+<html>  
+<head>  
+    <title>Order Management</title> 
+    <link rel = "stylesheet" type = "text/css" href = "style.css">   
+</head>  
+<body>
+    <h1 style="color:red;text-align:center;"> KW Order Management </h1>  
+    <div id = "frm">  
+        <h1>Login</h1>  
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+            <p>  
+                <label> Gebruikersnaam: </label>  
+                <input type = "text" id ="user" name  = "user" />  
+            </p>  
+            <p>  
+                <label> Wachtwoord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>  
+                <input type = "password" id ="pass" name  = "pass" />  
+            </p>  
+            <p>     
+                <input type =  "submit" id = "btn" value = "Login" />  
+            </p>  
+        </form>  
+    </div> 
+    <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("Gebruikersnaam en wachtwoord velden zijn leeg.");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("Gebruikersnaam veld is leeg.");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Wachtwoord veld is leeg.");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+        <img src="picwish.png" alt="KW Supply Magneetsystemen Orders">
+</body>     
+</html>  

@@ -1,0 +1,25 @@
+body {
+    background: #9c27b0;
+    background: -webkit-linear-gradient(to right, #4caf50, #9c27b0);
+    background: linear-gradient(to right, #4caf50, #9c27b0);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+  #frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: #9c27b0;
+    background: -webkit-linear-gradient(to left, #4caf50, #9c27b0);
+    background: linear-gradient(to left, #4caf50, #9c27b0);  
+    padding: 50px;  
+}  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
