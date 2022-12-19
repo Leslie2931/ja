@@ -1,25 +1,55 @@
-body {
-    background: #9c27b0;
-    background: -webkit-linear-gradient(to right, #4caf50, #9c27b0);
-    background: linear-gradient(to right, #4caf50, #9c27b0);
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: white;
-  }
-  #frm{  
+body{
+  /* gradient background */
+  background: #00C9FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background image */
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+
+#frm{  
     border: solid gray 1px;  
-    width:25%;  
+    width: 30%;  
     border-radius: 2px;  
-    margin: 120px auto;  
-    background: #9c27b0;
-    background: -webkit-linear-gradient(to left, #4caf50, #9c27b0);
-    background: linear-gradient(to left, #4caf50, #9c27b0);  
+    margin: 100px auto;  
+    background: #f2f2f2;  
     padding: 50px;  
-}  
-#btn{  
-    color: #fff;  
-    background: #337ab7;  
-    padding: 7px;  
-    margin-left: 70%;  
-}  
+} 
+
+h1{  
+    text-align: center;  
+    color: #0066FF;  
+    font-family: verdana;  
+    font-size: 30px;  
+}
+
+
+input[type=text], input[type=password] {  
+    width: 100%;  
+    margin: 8px 0;  
+    padding: 12px 20px;  
+    display: inline-block;  
+    border: 1px solid #ccc;  
+    box-sizing: border-box;  
+} 
+
+
+input[type=submit] {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 14px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+} 
+
+
+h1 {
+    text-align: center;
+    color: #0066FF;
+    font-family: verdana;
+    font-size: 30px;
+}
